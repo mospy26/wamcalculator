@@ -1,0 +1,38 @@
+# Any line that does not follow the format "WWWWXXXX=XXX,XX" where W = word, X = digit will not be parsed
+
+# This is a 79 mark for COMP3434
+COMP3434=79
+
+# This is a 90 mark for INFO1222 but with CP value of 2
+INFO1222=90,2
+
+# Similarly, this is a 60 mark for INFO5555 but with CP value of 12
+INFO1222=60,12
+
+######## These are valid ########
+
+# As much spaces allowed
+INFO1111     = 70
+PHYS1001=      1
+CHEM1010      =      50,9
+
+# upto 2 digits allowed for CP
+CLAW3001=80,12
+#################################
+
+######## These are invalid ########
+# Invalid course regex i.e. not "WWWWDDDD"
+INFO11111111=1
+
+# no equals "=" sign
+INFO1010 100
+
+# mark greater than 100
+COMP2020=101
+
+# left incomplete
+PHIL9999 = 80,
+
+# too many CP (only 2 digit CP allowed)
+PHIL9999 = 80,55
+#################################
