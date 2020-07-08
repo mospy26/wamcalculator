@@ -3,7 +3,7 @@ Simple JS program to calculate your EIHWAM and WAM i.e. Weighted Average Mark fo
 
 ### How to use it
 
-Read the sample_results.txt for a sample results file. Its very similar to an ini config file except there are no sections. Lines parsed by the program looks like:
+Read the sample_results.txt for a sample results file. Its very similar to an `.ini` config file except there are no sections. Lines parsed by the program looks like:
 ```sh
 # this means that COMP2222 is of 2 credit points (CP), and the mark obtained is 50
 COMP2222 = 50,2
