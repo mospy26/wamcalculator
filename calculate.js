@@ -15,7 +15,7 @@ function readTextFile(filename) {
         else {
             const elements = line.split("=");
             const values = elements[1].split(",")
-            _[elements[0]] = { "grade": values[0], "credit": values.length === 1 ? 6 : parseInt(values[1]) }
+            _[elements[0].trim()] = { "grade": parseInt(values[0].trim()), "credit": values.length === 1 ? 6 : parseInt(values[1].trim()) }
         }
     });
     return _
