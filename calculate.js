@@ -8,6 +8,7 @@ function readTextFile(filename) {
     const lines = data.split("\n")
     const _ = {}
     lines.forEach((line, index) => {
+        line = line.trim()
         if (!lineRegex.test(line)) {
             lines.splice(index, 1)
         }
