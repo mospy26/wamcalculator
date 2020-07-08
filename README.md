@@ -1,5 +1,5 @@
 # WAM Calculator
-Simple JS program to calculate your EIHWAM and WAM
+Simple JS program to calculate your EIHWAM and WAM i.e. Weighted Average Mark for students studying at the University of Sydney, Australia.
 
 ### How to use it
 
